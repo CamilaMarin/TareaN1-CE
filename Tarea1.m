@@ -9,16 +9,16 @@ MejorSujeto = [];
 global Data 
  Data = load('AUS.mat');
 % Data = load('GC.mat');
-%Data = load('IONO.mat');
+% Data = load('IONO.mat');
 % Data = load('PIMA.mat');
 % Data = load('WBC.mat');
 %Largo del cromosoma
 global largoCromo
  largoCromo = 14; %AUS
 % largoCromo = 24; %GC
-%largoCromo = 34; %IONO
-%largoCromo = 8; %PIMA
-%largoCromo = 30; %WBC
+% largoCromo = 34; %IONO
+% largoCromo = 8; %PIMA
+% largoCromo = 30; %WBC
 tournamentSize = 2;
 %tournamentSize = 5;
 %tournamentSize = 10;
